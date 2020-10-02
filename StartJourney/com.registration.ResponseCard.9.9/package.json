@@ -1,0 +1,40 @@
+{
+    "id": "com.registration.ResponseCard",
+    "schemaVersion": 1,
+    "version": "11",
+    "minorVersion": 1,
+    "providerName": "dickens",
+    "displayName": "Start Journey",
+    "description": "Fill in the form before Starting the Journey",
+    "icon": "fleet.png",
+    "appModel": "AppModel.json",
+    "dials": {
+        "isLocalised": false,
+        "isPinned": false
+    },
+    "actionScope": "Group",
+    "views": {
+        "CreationView": {
+            "sourceLocation": "Response.html",
+            "showNativeToolbar": false
+        },
+        "ChatCanvasCardView": {
+            "showReceipts": false,
+            "showLikes": false,
+            "showComments": false,
+            "labelResponseSending": "Submitting your details",
+            "labelResponded": "Fleet details provided",
+            "labelResponseFailed": "Fleet details submission failed",
+            "isResponseEditable": false
+        },
+        "ResponseResultsView": {
+            "sourceLocation": "ResponseSummary.html",
+            "showNativeToolbar": false
+        }
+    },
+     "externalUrls": [
+        {
+          "url": "https://fleet-tracker-dickens.herokuapp.com"
+        }
+      ]
+}

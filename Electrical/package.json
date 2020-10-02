@@ -1,0 +1,40 @@
+{
+    "id": "com.ElectricalCheck.ResponseCard",
+    "schemaVersion": 1,
+    "version": "1",
+    "minorVersion": 3,
+    "providerName": "dickens",
+    "displayName": "Electrical Check",
+    "description": "Fill in the form for Electrical Check",
+    "icon": "fleet.png",
+    "appModel": "AppModel.json",
+    "dials": {
+        "isLocalised": false,
+        "isPinned": false
+    },
+    "actionScope": "Group",
+    "views": {
+        "CreationView": {
+            "sourceLocation": "Response.html",
+            "showNativeToolbar": false
+        },
+        "ChatCanvasCardView": {
+            "showReceipts": false,
+            "showLikes": false,
+            "showComments": false,
+            "labelResponseSending": "Submitting your electrical check details",
+            "labelResponded": "Fleet electrical check details provided",
+            "labelResponseFailed": "Fleet electrical check details submission failed",
+            "isResponseEditable": false
+        },
+        "ResponseResultsView": {
+            "sourceLocation": "ResponseSummary.html",
+            "showNativeToolbar": false
+        }
+    },
+     "externalUrls": [
+        {
+          "url": "https://fleet-tracker-dickens.herokuapp.com"
+        }
+      ]
+}

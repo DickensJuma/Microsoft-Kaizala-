@@ -1,0 +1,53 @@
+{
+    "title": "Servicing Report",
+    "visibility": "All",
+    "expiry": 0,
+    "isAnonymous": false,
+    "isResponseAppended": true,
+    "isLocationRequested": false,
+    "questions": [{
+            "title": "Registration Number",
+            "type": "Text"
+        },
+        {
+            "title": "Current Odometer Reading",
+            "type": "Text"
+        },
+        {
+            "title": "Service Due Date",
+            "type": "Text"
+        },
+        
+        {
+            "title": "Garage",
+            "type": "Text"
+        },
+       
+        {
+            "title": "Parts Needed",
+            "type": "Text"
+        },
+
+        {
+            "title": "Date",
+            "type": "Text"
+        },
+        {
+            "title": "Name",
+            "type": "Text"
+        },
+        {
+            "title": "Phone",
+            "type": "Text"
+        },
+        {
+            "title": "Location",
+            "type": "Location"
+        },
+        {
+            "title": "Response Time",
+            "type": "DateTime"
+        }
+    ]
+}
+

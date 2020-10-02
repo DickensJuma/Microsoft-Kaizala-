@@ -1,0 +1,42 @@
+{
+    "title": "Report Incident",
+    "visibility": "All",
+    "expiry": 0,
+    "isAnonymous": false,
+    "isResponseAppended": true,
+    "isLocationRequested": false,
+    "questions": [{
+            "title": "Registration Number",
+            "type": "Text"
+        },
+        {
+            "title": "Incident Type",
+            "type": "Text"
+        },
+        {
+            "title": "Date",
+            "type": "Text"
+        },
+        {
+            "title": "Comment",
+            "type": "Text"
+        },
+        
+        {
+            "title": "Name",
+            "type": "Text"
+        },
+        {
+            "title": "Phone",
+            "type": "Text"
+        },
+        {
+            "title": "Location",
+            "type": "Location"
+        },
+        {
+            "title": "Response Time",
+            "type": "DateTime"
+        }
+    ]
+}

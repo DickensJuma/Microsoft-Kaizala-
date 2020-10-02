@@ -1,0 +1,50 @@
+{
+    "title": "Report on Mirrors Cocdition",
+    "visibility": "All",
+    "expiry": 0,
+    "isAnonymous": false,
+    "isResponseAppended": true,
+    "isLocationRequested": false,
+    "questions": [{
+            "title": "Registration Number",
+            "type": "Text"
+        },
+        {
+            "title": "Windscreen",
+            "type": "Text"
+        },
+        {
+            "title": "Sidemirrors",
+            "type": "Text"
+        },
+        {
+            "title": "Rear_view_mirrors",
+            "type": "Text"
+        },
+        {
+            "title": "Date",
+            "type": "Text"
+        },
+        {
+            "title": "Comment",
+            "type": "Text"
+        },
+        
+        {
+            "title": "Name",
+            "type": "Text"
+        },
+        {
+            "title": "Phone",
+            "type": "Text"
+        },
+        {
+            "title": "Location",
+            "type": "Location"
+        },
+        {
+            "title": "Response Time",
+            "type": "DateTime"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "title": "Electrical Check",
+    "visibility": "All",
+    "expiry": 0,
+    "isAnonymous": false,
+    "isResponseAppended": true,
+    "isLocationRequested": false,
+    "questions": [{
+            "title": "Registration Number",
+            "type": "Text"
+        },
+        {
+            "title": "Headlights",
+            "type": "Text"
+        },
+        {
+            "title": "Sidelights",
+            "type": "Text"
+        },
+        {
+            "title": "Indicator",
+            "type": "Text"
+        },
+        {
+            "title": "Brake_light",
+            "type": "Text"
+        },
+        {
+            "title": "Number_plate",
+            "type": "Text"
+        },
+
+        {
+            "title": "Date",
+            "type": "Text"
+        },
+        {
+            "title": "Comment",
+            "type": "Text"
+        },
+        
+        {
+            "title": "Name",
+            "type": "Text"
+        },
+        {
+            "title": "Phone",
+            "type": "Text"
+        },
+        {
+            "title": "Location",
+            "type": "Location"
+        },
+        {
+            "title": "Response Time",
+            "type": "DateTime"
+        }
+    ]
+}

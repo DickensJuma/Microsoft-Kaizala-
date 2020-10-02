@@ -1,0 +1,40 @@
+{
+    "id": "com.EngineCheck.ResponseCard",
+    "schemaVersion": 1,
+    "version": "1",
+    "minorVersion": 2,
+    "providerName": "dickens",
+    "displayName": "Engine Check",
+    "description": "Fill in the form for Engine Check",
+    "icon": "fleet.png",
+    "appModel": "AppModel.json",
+    "dials": {
+        "isLocalised": false,
+        "isPinned": false
+    },
+    "actionScope": "Group",
+    "views": {
+        "CreationView": {
+            "sourceLocation": "Response.html",
+            "showNativeToolbar": false
+        },
+        "ChatCanvasCardView": {
+            "showReceipts": false,
+            "showLikes": false,
+            "showComments": false,
+            "labelResponseSending": "Submitting your engine check details",
+            "labelResponded": "Fleet engine check details provided",
+            "labelResponseFailed": "Fleet engine check details submission failed",
+            "isResponseEditable": false
+        },
+        "ResponseResultsView": {
+            "sourceLocation": "ResponseSummary.html",
+            "showNativeToolbar": false
+        }
+    },
+     "externalUrls": [
+        {
+          "url": "https://fleet-tracker-dickens.herokuapp.com"
+        }
+      ]
+}

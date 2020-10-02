@@ -1,0 +1,40 @@
+{
+    "id": "com.Mirrors.ResponseCard",
+    "schemaVersion": 1,
+    "version": "1",
+    "minorVersion": 3,
+    "providerName": "dickens",
+    "displayName": "Report Mirror Condition",
+    "description": "Fill in the form to report on fueling",
+    "icon": "fleet.png",
+    "appModel": "AppModel.json",
+    "dials": {
+        "isLocalised": false,
+        "isPinned": false
+    },
+    "actionScope": "Group",
+    "views": {
+        "CreationView": {
+            "sourceLocation": "Response.html",
+            "showNativeToolbar": false
+        },
+        "ChatCanvasCardView": {
+            "showReceipts": false,
+            "showLikes": false,
+            "showComments": false,
+            "labelResponseSending": "Submitting your mirror condition details",
+            "labelResponded": "Fleet mirror condition details provided",
+            "labelResponseFailed": "Fleet mirror condition details submission failed",
+            "isResponseEditable": false
+        },
+        "ResponseResultsView": {
+            "sourceLocation": "ResponseSummary.html",
+            "showNativeToolbar": false
+        }
+    },
+     "externalUrls": [
+        {
+          "url": "https://fleet-tracker-dickens.herokuapp.com"
+        }
+      ]
+}
