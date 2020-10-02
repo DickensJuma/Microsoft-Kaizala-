@@ -7,6 +7,10 @@ MongoDB
 
 
 ```bash
+
+
+git clone https://github.com/DickensJuma/fleet-management
+
 npm install
 npm run dev
 
