@@ -15,6 +15,15 @@ npm install
 npm run dev
 
 http://localhost:3000 ## Hello Driver
+http://localhost:3000/register
+http://localhost:3000/start
+http://localhost:3000/servicing
+http://localhost:3000/incident
+http://localhost:3000/accident
+http://localhost:3000/mirrors-check
+http://localhost:3000/fueling
+http://localhost:3000/engine-check
+http://localhost:3000/electrical-check 
 
 
 
@@ -23,7 +32,7 @@ http://localhost:3000 ## Hello Driver
 ## Post
 
 ```python
-#registration
+#register
  {
        
         "registration": "KBC123R",
